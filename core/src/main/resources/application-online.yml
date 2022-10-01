@@ -1,3 +1,4 @@
+# 需要先配置一下该文件，才能正常运行。
 server:
   port: 8088
 spring:
@@ -72,10 +73,6 @@ spring:
             enable: true
             required: true
 
-
-
-
-
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
@@ -93,15 +90,3 @@ jwt:
   id: tokenId
   #设置密钥
   secret: kho2x9DvkuEfNtGcrd5QxjidPsaS3F6Tfx4phS96Y1YjDOJhXEAKtFVegr9Mqqnt
-
-#阿里云OSS配置
-aliyun:
-  oss:
-    file:
-      #地域节点参数
-      endpoint:
-      #自己的AccessKey id和密钥参数
-      keyId:
-      keySecret:
-      #bucket参数 可以在控制台创建，也可以使用java代码创建
-      bucketName:
